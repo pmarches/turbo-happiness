@@ -7,11 +7,15 @@ The main realization is that today we use already use tag based filesystems. For
 
 
 h1. Implementation
+
 - Garbage collection
 - Use of existing FS
 - 
 
 h1. Files, Attributes, Tags and Tagset
+
+What are those?
+
 
 
 h1. File (blob) operations
