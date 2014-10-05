@@ -9,53 +9,53 @@ The main realization is that today we use already use tag based filesystems. For
 Implementation
 --------
 
-- Garbage collection
-- Use of existing FS
-- 
+ - Garbage collection
+ - Use of existing FS
+ - 
 
 Objects in tagfs
 --------
-- Files (I prefer blob but to ease understanding let's use file)
- - Each file has a random unique id (UniqueBlobId) 512 bit long
- - The files are mutable
+ - Files (I prefer blob but to ease understanding let's use file)
+  - Each file has a random unique id (UniqueBlobId) 512 bit long
+  - The files are mutable
  - 
 
-- Attributes
+ - Attributes
 
-- Tags
- - Each tag has a unique ID (512 bit)
- - Are tags attributes with an empty value?
+ - Tags
+  - Each tag has a unique ID (512 bit)
+  - Are tags attributes with an empty value?
  
-- Tagset
+ - Tagset
 
 
 File (blob) operations
 --------
 
-- Copy
-- Move
-- Delete
+ - Copy
+ - Move
+ - Delete
 
 Security
 --------
-- ACL as attributes
-- What operations can be perfomed on the file
+ - ACL as attributes
+ - What operations can be perfomed on the file
 
 
 Uses of tags
 --------
 
-- Each software vendor has it's own tag
-- Each software version has it's own tag
-- Makes it easy to figure who is using what file (How does that tie into package management?)
-- 
+ - Each software vendor has it's own tag
+ - Each software version has it's own tag
+ - Makes it easy to figure who is using what file (How does that tie into package management?)
+ - 
 
 Legacy compatibility
 --------
 
 Supporting traditional filesystem is key for widespread adoption of a tag based FS. In traditional filesystems, each path element is a tag. The ordering does not matter. 
 
-- fopen compatibility is possible by converting a string path into a set of tags.
-- Mountable filesystem start at the root by showing all the tags available. When you change "directory" to one of the tags, the ls command will reval only the tags for which there exists a file with the current tag and the aditional tags. Changing directory to a second tag, will show only files that have both tags and the tags
-- File browser
+ - fopen compatibility is possible by converting a string path into a set of tags.
+ - Mountable filesystem start at the root by showing all the tags available. When you change "directory" to one of the tags, the ls command will reval only the tags for which there exists a file with the current tag and the aditional tags. Changing directory to a second tag, will show only files that have both tags and the tags
+ - File browser
 
