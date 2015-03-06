@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" y="43" width="351" height="517" text="Cloud, List, Events, Attribute" measuredWidth="351" measuredHeight="517" selection="1">
+    <items x="10" y="0" width="53" height="27" text="Cloud"/>
+    <items x="63" y="0" width="39" height="27" text="List"/>
+    <items x="102" y="0" width="55" height="27" text="Events"/>
+    <items x="157" y="0" width="68" height="27" text="Attribute"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" y="80" measuredWidth="341" measuredHeight="470">
+    <widgets xsi:type="model:Table" id="13" width="331" height="470" text="Label name ^v, Size ^v&#xA;[usr], 3452&#xA;[pmarches], 1252&#xA;[projects], 653&#xA;[trash], 59&#xA;[photos], 3456&#xA;[java], 201&#xA;[MS-Word document], 34&#xA;[recette], 34&#xA;[visa], 34&#xA;" measuredWidth="331" measuredHeight="470" alternative="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="14" x="324" height="470" measuredWidth="17" measuredHeight="470"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="15" x="6" y="11" text="pmarches, photos" measuredWidth="114" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="55" height="23" text="pmarches"/>
+    <items x="73" y="0" width="40" height="23" text="photos"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

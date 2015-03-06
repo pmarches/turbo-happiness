@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="-8" measuredWidth="817" measuredHeight="601">
+    <screen xsi:type="model:Screen" href="browser-main-widget.screen#/"/>
+    <overrides>
+      <widgets ref="3" text="Name ^, Additional tags, Last Modified ^v, Size ^v&#xA;IMG_123456.JPG, [reference] [visa], Fri Oct 24 06:35:22, 1.5 MB&#xA;IMG_68382.JPG, [reference] [recette] [sauce], Fri Oct 24 06:35:22, 1.5 MB&#xA;IMG_68383.JPG, [reference] [recette], Fri Oct 24 06:35:22, 1.5 MB&#xA;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="2" y="57" measuredWidth="473" measuredHeight="544">
+    <screen xsi:type="model:Screen" href="widget-attributeview.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

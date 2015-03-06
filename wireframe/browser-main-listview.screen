@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="-8" measuredWidth="817" measuredHeight="601">
+    <screen xsi:type="model:Screen" href="browser-main-widget.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="2" y="47" measuredWidth="351" measuredHeight="549">
+    <screen xsi:type="model:Screen" href="widget-listview.screen#/"/>
+    <overrides>
+      <widgets ref="1" text="Cloud, List, Events, Attribute, Advanced">
+        <itemChanges xsi:type="o:Insert" newIndex="4">
+          <object xsi:type="model:Item" text="Advanced"/>
+        </itemChanges>
+      </widgets>
+      <widgets ref="13" text="Tag name ^v, Size ^v&#xA;[usr], 3452&#xA;[pmarches], 1252&#xA;[projects], 653&#xA;[trash], 59&#xA;[photos], 3456&#xA;[java], 201&#xA;[MS-Word document], 34&#xA;[recette], 34&#xA;[visa], 34&#xA;"/>
+      <widgets ref="15" text="pmarches{desc}, photos{desc}">
+        <items ref="@items.0" text="pmarches{desc}"/>
+        <items ref="@items.1" text="photos{desc}"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="4" x="263" y="60" text="{trash}  Remove&#xA;{unavailable-cursor} Exclude" measuredWidth="76" measuredHeight="50">
+    <items x="0" y="2" width="76" height="23" text="{trash}  Remove"/>
+    <items x="0" y="25" width="76" height="23" text="{unavailable-cursor} Exclude"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="369" y="60" width="76" text="Matches" measuredWidth="76" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

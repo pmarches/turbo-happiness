@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" width="585" height="329" text="Save as..." measuredWidth="585" measuredHeight="329"/>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="400" y="288" measuredWidth="165" measuredHeight="25" layoutParams="|anchor-bottom">
+    <widgets xsi:type="model:Button" id="2" x="105" width="60" text="&amp;Done" measuredWidth="60" measuredHeight="25" state="selected">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="3" width="75" text="&amp;Cancel" measuredWidth="75" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="24" y="29" height="172" measuredWidth="541" measuredHeight="172" dimmed="true">
+    <screen xsi:type="model:Screen" href="widget-tag-cloud.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="-133" y="-63" width="541" height="172" text="%(font:14)audiobook% %(font:15)Work_assigment% %(font:26)books% %(font:13)btsyncshared% %(font:21)cadeaux% %(font:13)charlotte% %(font:26)diaries% %(font:13)Documents% %(font:19)Downloads% %(font:13)Dropbox% %(font:17)Investments% %(font:19)GOOGLE 2FA% %(font:28)invoices% %(font:15)Movies% %(font:27)Bitcoin% %(font:14)Music% %(font:22)Excel% %(font:21)Pictures% %(font:16)public key% %(font:12)private% %(font:20)projects% %(font:21)Public% %(font:27)Templates% %(font:10)tmp% %(font:12)Videos% %(font:22)WireframeSketcher% %(font:10)workspace%"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="8" x="24" y="289" width="321" text="federal government" measuredWidth="321" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="15" x="504" y="29" width="121" height="93" text="Tag cloud shows more relevant tags in bigger text. Tags are sorted in alphabetical order. " measuredWidth="121" measuredHeight="93">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="24" y="176" measuredWidth="541" measuredHeight="99">
+    <screen xsi:type="model:Screen" href="assets/2column-taglist-widget.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="20" x="56" y="304" width="49" height="41" measuredWidth="49" measuredHeight="41"/>
+  <widgets xsi:type="model:Note" id="19" x="56" y="336" width="153" height="73" text="Pressing Enter adds the textfield content to the list of selected tags. Ctrl-Enter closes the dialog." measuredWidth="153" measuredHeight="73">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="22" x="224" y="336" width="140" height="74" text="Clicking on assigned tags removes them from the list. (Not very intuitive)" measuredWidth="140" measuredHeight="74">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="23" x="88" y="256" width="161" height="81" measuredWidth="161" measuredHeight="81"/>
+  <widgets xsi:type="model:Arrow" id="24" x="248" y="104" width="17" height="73" measuredWidth="17" measuredHeight="73" left="false" right="true"/>
+  <widgets xsi:type="model:Note" id="21" x="160" y="48" width="145" height="66" text="3 columns distribute the tags more evenly across the screen" measuredWidth="145" measuredHeight="66">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="25" x="224" y="176" text="1" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="26" x="386" y="176" text="1" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="27" x="501" y="176" text="1" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="28" x="384" y="344" width="169" height="89" text="          %(color:green)Automatic tags%, selected depending on the content, context, etc.." measuredWidth="169" measuredHeight="89">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="29" x="408" y="336" text="1" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

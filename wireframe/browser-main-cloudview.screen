@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="9" x="10" y="4" measuredWidth="817" measuredHeight="601" name="browser">
+    <widgets xsi:type="model:Window" id="10" width="817" height="601" text="Tag browser" measuredWidth="817" measuredHeight="601" minimizeButton="true" maximizeButton="true"/>
+    <widgets xsi:type="model:VSplitter" id="11" x="360" y="80" height="521" measuredWidth="11" measuredHeight="521"/>
+    <widgets xsi:type="model:Table" id="12" x="376" y="80" width="425" height="305" text="Name ^, Additional tags, Last Modified ^v, Size ^v&#xA;IMG_123456.JPG, [reference] [visa], Fri Oct 24 06:35:22 PDT 2014, 1.5 MB&#xA;IMG_68382.JPG, [reference] [recette], Fri Oct 24 06:35:22 PDT 2014, 1.5 MB&#xA;IMG_68383.JPG, [reference] [recette], Fri Oct 24 06:35:22 PDT 2014, 1.5 MB&#xA;" measuredWidth="425" measuredHeight="305" alternative="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="13" x="800" y="80" height="521" measuredWidth="17" measuredHeight="521"/>
+    <widgets xsi:type="model:Menu" id="14" y="19" width="817" text="&amp;File,&amp;Edit,&amp;View,~&amp;Window~,&amp;Help" measuredWidth="817" measuredHeight="27">
+      <items x="5" y="0" width="29" height="27" text="&amp;File"/>
+      <items x="34" y="0" width="31" height="27" text="&amp;Edit"/>
+      <items x="65" y="0" width="36" height="27" text="&amp;View"/>
+      <items x="101" y="0" width="55" height="27" text="~&amp;Window~"/>
+      <items x="156" y="0" width="35" height="27" text="&amp;Help"/>
+    </widgets>
+    <widgets xsi:type="model:Image" id="15" x="600" y="394" width="195" height="197" text="PREVIEW" measuredWidth="195" measuredHeight="197"/>
+    <widgets xsi:type="model:Table" id="16" x="376" y="394" width="217" height="197" text="Property Name, Value" measuredWidth="217" measuredHeight="197" alternative="#eeeeee">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="17" x="18" y="50" measuredWidth="351" measuredHeight="544">
+    <screen xsi:type="model:Screen" href="widget-cloudview.screen#/"/>
+    <overrides>
+      <widgets ref="3" text="%(color:gray)Add Tag%"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

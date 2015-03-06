@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" width="585" height="321" text="Save As..." measuredWidth="585" measuredHeight="321"/>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="400" y="273" measuredWidth="165" measuredHeight="25" layoutParams="|anchor-bottom">
+    <widgets xsi:type="model:Button" id="2" x="105" width="60" text="&amp;Save" measuredWidth="60" measuredHeight="25" state="selected">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="3" width="75" text="&amp;Cancel" measuredWidth="75" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="24" y="72" measuredWidth="541" measuredHeight="203" dimmed="true">
+    <screen xsi:type="model:Screen" href="widget-tag-cloud.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="-133" y="-63" width="541" height="203"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="7" x="24" y="40" text="pmarches, photos, scan, thomas, birth certificate, canadian, citizenship, png" measuredWidth="511" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="56" height="23" text="pmarches"/>
+    <items x="74" y="0" width="40" height="23" text="photos"/>
+    <items x="132" y="0" width="27" height="23" text="scan"/>
+    <items x="177" y="0" width="43" height="23" text="thomas"/>
+    <items x="238" y="0" width="85" height="23" text="birth certificate"/>
+    <items x="341" y="0" width="51" height="23" text="canadian"/>
+    <items x="410" y="0" width="59" height="23" text="citizenship"/>
+    <items x="487" y="0" width="23" height="23" text="png"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="8" x="24" y="274" width="361" text="scan thomas birth certificate canadian citizenship.png" measuredWidth="361" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="11" x="231" y="297" width="10" height="49" measuredWidth="10" measuredHeight="49" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="15" x="400" y="172" width="121" height="93" text="Tag cloud shows more relevant tags in bigger text. Tags are sorted in alphabetical order. " measuredWidth="121" measuredHeight="93">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="16" x="192" y="62" width="25" height="291" measuredWidth="25" measuredHeight="291" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="17" x="464" y="48" width="33" height="313" measuredWidth="33" measuredHeight="313" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="10" x="96" y="336" width="225" height="97" text="Tags are automatically added to the database from the text field. Maybe validate spelling? They can easily be updated later on." measuredWidth="225" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="12" x="414" y="336" width="107" height="97" text="Tags grow horizontally with the TagCrumb, should we put it in a list instead?" measuredWidth="107" measuredHeight="97">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" x="4" y="39" width="351" height="517" text="Cloud, List, Events, Attribute" measuredWidth="351" measuredHeight="517" selection="3">
+    <items x="10" y="0" width="53" height="27" text="Cloud"/>
+    <items x="63" y="0" width="39" height="27" text="List"/>
+    <items x="102" y="0" width="55" height="27" text="Events"/>
+    <items x="157" y="0" width="68" height="27" text="Attribute"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="3" x="14" y="76" width="327" text="Search" measuredWidth="327" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="18" y="490" width="201" text="Text field" measuredWidth="201" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="5" x="226" y="491" width="89" text="  /  /  " measuredWidth="89" measuredHeight="23"/>
+  <widgets xsi:type="model:Button" id="6" x="317" y="490" text="+" measuredWidth="28" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="12" x="12" y="12" text="[pmarches], [Norbert achete corvette] - [Party PCO 2014], [photos], [MyTag='holiday']" measuredWidth="463" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="55" height="23" text="[pmarches]"/>
+    <items x="73" y="0" width="220" height="23" text="[Norbert achete corvette] - [Party PCO 2014]"/>
+    <items x="311" y="0" width="40" height="23" text="[photos]"/>
+    <items x="369" y="0" width="93" height="23" text="[MyTag='holiday']"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="13" x="14" y="112" width="327" height="361" text="where MyTag='holiday'" measuredWidth="327" measuredHeight="361">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Table" id="1" x="24" y="176" width="541" height="99" text="%(color:green)[Last modified : ${current-time}]%, %(color:green)[png]%, %(color:green)[picture]%&#xA;[scan], [thomas], [birth]&#xA;[certificate], [canadian], [citizenship]&#xA;[reference]" alternative="#eeeeee" header="false">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

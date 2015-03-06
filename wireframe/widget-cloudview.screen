@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" x="4" y="39" width="351" height="517" text="Cloud, List, Events, Attribute" measuredWidth="351" measuredHeight="517" selection="0">
+    <items x="10" y="0" width="52" height="27" text="Cloud"/>
+    <items x="62" y="0" width="39" height="27" text="List"/>
+    <items x="101" y="0" width="55" height="27" text="Events"/>
+    <items x="156" y="0" width="68" height="27" text="Attribute"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="2" x="14" y="76" width="327" text="Search" measuredWidth="327" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="18" y="490" width="300" text="Text field" measuredWidth="300" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="317" y="490" text="+" measuredWidth="27" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="6" x="12" y="12" text="[pmarches]" measuredWidth="57" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="56" height="23" text="[pmarches]"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="12" y="99" width="333" height="382" measuredWidth="333" measuredHeight="382" dimmed="true">
+    <screen xsi:type="model:Screen" href="widget-tag-cloud.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="-146" y="-121" width="333" height="382"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

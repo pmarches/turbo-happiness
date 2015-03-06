@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Text" id="1" width="353" height="345" text="%(font:14)audiobook% %(font:15)Boeing_assigment% %(font:26)books% %(font:13)btsyncshared% %(font:21)cadeaux% %(font:13)annick% %(font:26)diaries% %(font:13)Documents% %(font:19)Downloads% %(font:13)Dropbox% %(font:17)Gold% %(font:19)GOOGLE 2FA% %(font:28)invoices% %(font:15)Movies% %(font:27)MultiBit% %(font:14)Music% %(font:22)Excel% %(font:21)Pictures% %(font:16)public key% %(font:12)private% %(font:20)projects% %(font:21)Public% %(font:27)Templates% %(font:10)tmp% %(font:12)Videos% %(font:22)WireframeSketcher% %(font:10)workspace%" measuredWidth="353" measuredHeight="345">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

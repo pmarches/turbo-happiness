@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" width="641" height="481" text="Tag management" measuredWidth="641" measuredHeight="481" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Table" id="2" x="20" y="28" width="581" height="141" text="Group name, &#xA;people, pmarches {delete} cmarches  {delete} thomas {delete} ...&#xA;projects, [workspace] [castaconcord] [peercentrum] ...&#xA;file type, [java] [c++] [python] ...&#xA;office documents, [Spreadsheet] [Text] [Presentation]&#xA;{add} Add group" measuredWidth="581" measuredHeight="141" selection="3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="3" x="16" y="199" width="266" height="167" text="Tag name, Action&#xA;java, [Remove]&#xA;c++, [Remove]&#xA;python, [Remove]&#xA;scala, [Remove]&#xA;{add} Add tag" measuredWidth="266" measuredHeight="167" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="16" y="177" text="Tags part of group" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="113" y="173" width="169" text="file type" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="7" x="296" y="197" text="(o) one of the group&#xA;( ) many of the group&#xA;" measuredWidth="129" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="129" height="22" text="(o) one of the group"/>
+    <items x="0" y="24" width="129" height="22" text="( ) many of the group"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="296" y="174" text="Selection cardinality" measuredWidth="113" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
